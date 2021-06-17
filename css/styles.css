@@ -329,6 +329,7 @@ a:hover {
 /**********************/
 .navbar {
 	background-color: #2b2b4f;
+	/*background-color: #ff80bf;*/
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -348,7 +349,8 @@ a:hover {
 .navbar .logo-text {
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 1.875rem;
+	/*font-size: 1.875rem;*/
+	font-size: 1.5rem;
 	line-height: 1rem;
 	text-decoration: none;
 }
@@ -364,6 +366,7 @@ a:hover {
 	overflow-y: auto;
 	visibility: hidden;
 	background-color: #2b2b4f;
+	/*background-color: #ff80bf;*/
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -391,7 +394,8 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #7dc22b;
+	color: #000000;
+	font-size: 1.2rem;
 }
 
 /* Dropdown Menu */
@@ -1294,7 +1298,8 @@ a:hover {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #2b2b4f;
+		background-color: #ff80bf;
+		/*background-color: #2b2b4f;*/
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 
@@ -1523,8 +1528,8 @@ a:hover {
 	}
 
 	.header .h1-large {
-		font-size: 7rem;
-		line-height: 7.25rem;
+		font-size: 3rem;
+		line-height: 6rem;
 	}
 
 	.header .button-container {

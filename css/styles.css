@@ -489,7 +489,7 @@ a:hover {
 .header .h1-large {
 	margin-bottom: 2.5rem;
 	color: #ffffff;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	line-height: 4.5rem;
 }
 
@@ -1193,9 +1193,14 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
+
+
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
+	/*html { font-size: 30% }*/
 	/* Header */
 	.header {
 		padding-top: 11rem;
@@ -1360,8 +1365,8 @@ a:hover {
 	}
 
 	.header .h1-large {
-		font-size: 6rem;
-		line-height: 6.5rem;
+		font-size: 2.5rem;
+		line-height: 5rem;
 	}
 
 	.header .button-container {
@@ -1529,7 +1534,7 @@ a:hover {
 
 	.header .h1-large {
 		font-size: 3rem;
-		line-height: 6rem;
+		line-height: 5rem;
 	}
 
 	.header .button-container {

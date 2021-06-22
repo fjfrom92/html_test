@@ -58,6 +58,14 @@ a {
     text-decoration: none;
     color: #448aff; }
 
+h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-family: "Poppins"
+}
+
 h3 {
   color: #2b2b4f;
   font-weight: 600;
@@ -69,15 +77,20 @@ h3 {
 h4 {
   font-size: 1.375rem; }
 
+h5 {
+  color: #007bff;
+  font-size: 1rem;
+}
+
 h6 {
   font-size: 14px; }
 
 p {
   font-size: 13px; }
-
+/*
 b, strong {
   font-weight: 500; }
-
+*/
 .media-left {
   padding-right: 20px; }
 
@@ -5197,6 +5210,10 @@ select.form-control:not([size]):not([multiple]) {
 .text-inverse {
   color: #37474f !important; }
 
+.text-link {
+  color: #007bff !important;
+  font-size: 1rem; }
+
 .text-info {
   color: #00bcd4 !important; }
 
@@ -8739,6 +8756,7 @@ body.menu-bottom #collapse-menu {
   background-color: #ff80bf;
   border-color: #ff80bf;
   color: #fff;
+  font-size: 1.2rem;
   cursor: pointer;
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s; }
@@ -9098,7 +9116,7 @@ body.menu-bottom #collapse-menu {
 
 .btn-md {
   padding: 10px 16px;
-  font-size: 15px;
+  /*font-size: 15px;*/
   line-height: 23px; }
 
 .btn-sm {
@@ -10083,11 +10101,11 @@ body.menu-bottom #collapse-menu {
 .checkbox-fade.fade-in-primary .cr, .checkbox-fade.zoom-primary .cr,
 .checkbox-zoom.fade-in-primary .cr,
 .checkbox-zoom.zoom-primary .cr {
-  border: 2px solid #448aff; }
+  border: 3px solid #dc3545; }
   .checkbox-fade.fade-in-primary .cr .cr-icon, .checkbox-fade.zoom-primary .cr .cr-icon,
   .checkbox-zoom.fade-in-primary .cr .cr-icon,
   .checkbox-zoom.zoom-primary .cr .cr-icon {
-    color: #448aff; }
+    color: #dc3545; }
 
 .checkbox-fade.fade-in-warning .cr, .checkbox-fade.zoom-warning .cr,
 .checkbox-zoom.fade-in-warning .cr,
